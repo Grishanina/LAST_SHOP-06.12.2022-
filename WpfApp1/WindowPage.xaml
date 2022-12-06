@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.WindowPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Реклама" Height="350" Width="600" Background="Gold">
+    
+    <Grid>
+        <Border x:Name="bor" BorderBrush="BlueViolet" Margin="5" Background="Yellow" BorderThickness="5">
+        <StackPanel HorizontalAlignment="Center">
+            <TextBlock x:Name="tb1" HorizontalAlignment="Center">Новый продуктовый магазин "Ягодка"</TextBlock>
+            <TextBlock x:Name="tb2" HorizontalAlignment="Center">Товары по закупочным ценам</TextBlock>
+            <TextBlock x:Name="tb3" HorizontalAlignment="Center">Не упустите такую возможность</TextBlock>
+            <Image x:Name="Klubnika" Source="Resource\klubnika.png" Width="100" Height="100"></Image>
+        </StackPanel>
+        </Border>
+    </Grid>
+</Window>
